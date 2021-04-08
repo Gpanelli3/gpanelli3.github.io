@@ -1,0 +1,84 @@
+.nav {
+  text-align: right;
+  height: 5rem;
+  line-height: 4.375rem;
+}
+
+.menu {
+  margin: 0 30px 0 0;
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+
+.menu a {
+  font-family: "IBMPlexMono";
+  font-size: 1rem;
+  color: #FFFFFF;
+  clear: right;
+  text-decoration: none;
+  letter-spacing: 0;
+  line-height: 1.625rem;
+  display: block;
+  text-align: left;
+  padding: 2px;
+  background-color: blue;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 1.625rem;
+  line-height: 4.375rem;
+  display: block;
+  width: 1.625rem;
+  float: right;
+  cursor: pointer;
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked + .menu {
+  display: block;
+}
+
+.icon {
+  position: relative;
+  right: 11rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .menu {
+    display: block;
+    position: absolute;
+  }
+  .menu a {
+    display: inline;
+    position: relative;
+    left: 25rem;
+    bottom: 0.5rem;
+    padding: 0.625rem;
+    color: #060A24;
+    background-color: white;
+  }
+  .menu a:active {
+    color: grey;
+    text-decoration: line-through;
+  }
+  .menu a:hover {
+    color: #00F3BB 100%;
+    text-decoration: line-through;
+  }
+  .icon {
+    margin-left: 3.75rem;
+    width: 2rem;
+  }
+  #hamburguer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=seccion-1-nav.css.map */

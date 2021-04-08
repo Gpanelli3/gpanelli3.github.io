@@ -1,0 +1,128 @@
+.title-1 {
+  font-family: "IBM Plex Sans", "sans-serif";
+  font-size: 2.25rem;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 2.625rem;
+}
+
+.title-1 .tachado {
+  text-decoration: line-through;
+}
+
+.cont-title-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 12rem;
+}
+
+.title-2 {
+  font-family: "IBM Plex Sans", "sans-serif";
+  font-size: 2.25rem;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 2.625rem;
+}
+
+.titles-34 {
+  font-family: "IBM Plex Sans", "sans-serif";
+  font-size: 2.25rem;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 2.625rem;
+}
+
+.blue-title {
+  font-family: "IBM Plex Sans", "sans-serif";
+  font-size: 2.25rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 2.625rem;
+  padding: 1.4375rem;
+}
+
+article p {
+  font-family: "IBMPlexMono";
+  font-size: 0.875rem;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 1.375rem;
+}
+
+.text-bfond-2 {
+  font-family: "IBM Plex Sans", "sans-serif";
+  font-size: 2.25rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 2.625rem;
+  padding-top: 4.5rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .title-1 {
+    font-family: "IBM Plex Sans", "sans-serif";
+    font-size: 4rem;
+    color: #060A24;
+    letter-spacing: 0;
+    display: block;
+    width: 50rem;
+    box-sizing: border-box;
+    position: relative;
+    left: 15.625rem;
+    top: 3.125rem;
+  }
+  .title-1 .punto-azul {
+    color: blue;
+  }
+  h1 + p {
+    font-size: 1rem;
+    display: block;
+    position: relative;
+    top: 3.75rem;
+    left: 15.625rem;
+    width: 26.875rem;
+  }
+  .titles-34 {
+    margin-left: 9em;
+    padding: 1em;
+  }
+  .text-firstimg {
+    display: inline-block;
+    position: relative;
+    left: 56.25rem;
+    bottom: 13rem;
+    font-family: "IBMPlexMono";
+    font-size: 1rem;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 1.5rem;
+  }
+  .title-2 {
+    display: inline-block;
+    position: relative;
+    left: 56.25rem;
+    bottom: 15rem;
+    font-family: "IBM Plex Sans", "sans-serif";
+    font-size: 3rem;
+    color: #060A24;
+    letter-spacing: 0;
+  }
+  .blue-title {
+    font-family: "IBM Plex Sans", "sans-serif";
+    font-size: 3rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    margin-left: 5rem;
+  }
+  .text-bfond-2 {
+    font-family: "IBM Plex Sans", "sans-serif";
+    font-size: 3rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 8rem;
+  }
+}
+/*# sourceMappingURL=seccion-2-titles-y-demas.css.map */

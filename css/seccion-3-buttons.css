@@ -1,0 +1,60 @@
+.button {
+  background: #00F3BB;
+  width: 18.125rem;
+  height: 3rem;
+  font-size: 1rem;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  border: none;
+}
+
+.button3 {
+  text-decoration: none;
+  color: #060A24;
+  font-family: "IBMPlexMono-Medium";
+}
+
+.button3:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.button2 {
+  background: #00F3BB;
+  width: 18.125rem;
+  height: 3rem;
+  font-family: "IBMPlexMono-Medium";
+  font-size: 1rem;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1.375rem;
+  border: none;
+  margin-top: 4rem;
+  margin-left: 0.7rem;
+}
+
+.button4 {
+  text-decoration: none;
+  color: #060A24;
+  font-family: "IBMPlexMono-Medium";
+}
+
+.button4:hover {
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+  .button-container-1 {
+    display: block;
+    position: relative;
+    top: 6.25rem;
+    left: 15.625rem;
+  }
+  .button2 {
+    margin-left: 33rem;
+  }
+}
+/*# sourceMappingURL=seccion-3-buttons.css.map */

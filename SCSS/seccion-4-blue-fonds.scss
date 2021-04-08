@@ -1,0 +1,77 @@
+
+@import "./variables.scss";
+
+.contenedor-2 {
+  width: 100%;
+  height: 75rem;
+  position: relative;
+  top: 2.5rem;
+}
+
+.fondo-azul-1 {
+  width: 100%;
+  height: 75rem;
+  margin-top: 3rem;
+  background-image: $blue-color;
+  position: absolute;
+  z-index: -10;
+  transform: skewY(-5deg);
+  bottom:1.25rem;
+}
+
+.contenedor {
+  width: 100%;
+  height: 21.25rem;
+  position: relative;
+  bottom: 2.5rem;
+  overflow: hidden;
+  bottom: 9rem;
+}
+
+
+.blue-fond-2{
+    width: 100%;
+    height: 25rem;
+    background-image: $blue-color;
+    position: absolute;
+    top: 1.5625rem;
+    left: 0;
+    z-index: -10;
+    transform: skewY(-5deg);
+}
+
+
+@media screen and (min-width: 1000px) {
+  .contenedor-2 {
+    max-width: 87.5rem;
+    width: 80rem;
+    height: 62.5rem;
+    margin-left: 6rem;
+    position: relative;
+    top: 20em;
+  }
+  .cont-spotify {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .spotify {
+    width: 30rem;
+    height: 15rem;
+    margin: 1rem;
+  }
+  .contenedor {
+    max-width: 87.5rem;
+    width: 80rem;
+    height: 32.5rem;
+    margin-left: 6rem;
+    position: relative;
+  }
+  .blue-fond-2{
+    margin-top: 2.1875rem;
+    height: 37.5rem;
+    transform: skewY(-5deg);
+  }
+}
+ 

@@ -1,0 +1,45 @@
+.footer {
+  position: relative;
+  text-align: center;
+  font-family: "IBMPlexMono";
+  font-size: 0.875rem;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
+  bottom: 5rem;
+}
+
+.footericon {
+  position: relative;
+  bottom: 4rem;
+  text-align: center;
+  letter-spacing: 0.875rem;
+}
+
+/* este text-block se usa en varias secciones*/
+.text-block {
+  display: inline-block;
+  position: relative;
+  bottom: 9.375rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .footer {
+    font-family: "IBMPlexMono";
+    color: #060A24;
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 1.75rem;
+    display: inline-block;
+    position: relative;
+    left: 7.5rem;
+    top: 0.875rem;
+  }
+  .footericon {
+    display: inline-block;
+    position: relative;
+    left: 80rem;
+    bottom: 0.625rem;
+  }
+}
+/*# sourceMappingURL=seccion-7-footer-y-demas.css.map */

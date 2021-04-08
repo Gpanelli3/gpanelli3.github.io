@@ -1,0 +1,35 @@
+@import "./variables.scss";
+
+
+.iconos-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.icons{
+  margin-left: 5rem;
+}
+.icons-title {
+  font-family: "IBM Plex Sans", "sans-serif";
+  font-size: 1.5rem;
+  color: #060A24;
+  letter-spacing: 0;
+  margin-left: 4rem;
+}
+
+@media screen and (min-width: 1000px) {
+  #icon-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 8rem;
+    width: 100%;
+    column-gap: 12%;
+  }
+  .icons {
+    align-self: center;
+  }
+}

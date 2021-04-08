@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 320px;
+    height: auto;
+}
+
+@import "../SCSS/seccion-1-nav.scss";
+@import"../SCSS/seccion-2-titles-y-demas.scss";
+@import"../SCSS/seccion-3-buttons.scss";
+@import"../SCSS/seccion-4-blue-fonds.scss";
+@import"../SCSS/seccion-5-imagenes.scss";
+@import"../SCSS/seccion-6-icons.scss";
+@import"../SCSS/seccion-7-footer-y-demas.scss";
+
+@import "../SCSS/variables.scss";
