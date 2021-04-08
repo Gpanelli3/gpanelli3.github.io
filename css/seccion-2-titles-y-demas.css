@@ -85,14 +85,14 @@ article p {
     width: 26.875rem;
   }
   .titles-34 {
-    margin-left: 9em;
+    margin-left: 4rem;
     padding: 1em;
   }
   .text-firstimg {
     display: inline-block;
     position: relative;
-    left: 56.25rem;
-    bottom: 13rem;
+    left: 43rem;
+    bottom: 15rem;
     font-family: "IBMPlexMono";
     font-size: 1rem;
     color: #060A24;
@@ -102,8 +102,8 @@ article p {
   .title-2 {
     display: inline-block;
     position: relative;
-    left: 56.25rem;
-    bottom: 15rem;
+    left: 43rem;
+    bottom: 17rem;
     font-family: "IBM Plex Sans", "sans-serif";
     font-size: 3rem;
     color: #060A24;

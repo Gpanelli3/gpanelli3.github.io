@@ -76,12 +76,8 @@ label {
     color: #060A24;
     background-color: white;
   }
-  .menu a:active {
-    color: grey;
-    text-decoration: line-through;
-  }
   .menu a:hover {
-    color: #00F3BB 100%;
+    color: #00F3BB;
     text-decoration: line-through;
   }
   .icon {
@@ -180,14 +176,14 @@ article p {
     width: 26.875rem;
   }
   .titles-34 {
-    margin-left: 9em;
+    margin-left: 4rem;
     padding: 1em;
   }
   .text-firstimg {
     display: inline-block;
     position: relative;
-    left: 56.25rem;
-    bottom: 13rem;
+    left: 43rem;
+    bottom: 15rem;
     font-family: "IBMPlexMono";
     font-size: 1rem;
     color: #060A24;
@@ -197,8 +193,8 @@ article p {
   .title-2 {
     display: inline-block;
     position: relative;
-    left: 56.25rem;
-    bottom: 15rem;
+    left: 43rem;
+    bottom: 17rem;
     font-family: "IBM Plex Sans", "sans-serif";
     font-size: 3rem;
     color: #060A24;
@@ -322,9 +318,8 @@ article p {
 @media screen and (min-width: 1000px) {
   .contenedor-2 {
     max-width: 87.5rem;
-    width: 80rem;
+    width: 84rem;
     height: 62.5rem;
-    margin-left: 6rem;
     position: relative;
     top: 20em;
   }
@@ -341,9 +336,8 @@ article p {
   }
   .contenedor {
     max-width: 87.5rem;
-    width: 80rem;
+    width: 84rem;
     height: 32.5rem;
-    margin-left: 6rem;
     position: relative;
   }
   .blue-fond-2 {
@@ -368,10 +362,14 @@ article p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    margin-left: 20em;
+  }
+  .images {
+    display: flex;
+    flex-flow: row wrap;
+    width: 28rem;
   }
   .image-1 {
-    transform: translate(350px, 200px);
+    transform: translate(150px, 190px);
     width: 450px;
     height: 660px;
   }
@@ -404,7 +402,7 @@ article p {
     text-align: center;
     margin-left: 8rem;
     width: 100%;
-    column-gap: 12%;
+    column-gap: 6%;
   }
   .icons {
     align-self: center;
@@ -445,14 +443,18 @@ article p {
     line-height: 1.75rem;
     display: inline-block;
     position: relative;
-    left: 7.5rem;
-    top: 0.875rem;
+    left: 3rem;
+    bottom: 3rem;
   }
   .footericon {
     display: inline-block;
     position: relative;
-    left: 80rem;
-    bottom: 0.625rem;
+    left: 70rem;
+    bottom: 3.8rem;
+  }
+  .social-med {
+    text-decoration: none;
+    color: black;
   }
 }
 /*# sourceMappingURL=index-main.css.map */

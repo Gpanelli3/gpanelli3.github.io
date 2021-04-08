@@ -39,9 +39,8 @@
 @media screen and (min-width: 1000px) {
   .contenedor-2 {
     max-width: 87.5rem;
-    width: 80rem;
+    width: 84rem;
     height: 62.5rem;
-    margin-left: 6rem;
     position: relative;
     top: 20em;
   }
@@ -58,9 +57,8 @@
   }
   .contenedor {
     max-width: 87.5rem;
-    width: 80rem;
+    width: 84rem;
     height: 32.5rem;
-    margin-left: 6rem;
     position: relative;
   }
   .blue-fond-2 {

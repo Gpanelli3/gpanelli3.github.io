@@ -65,12 +65,8 @@ label {
     color: #060A24;
     background-color: white;
   }
-  .menu a:active {
-    color: grey;
-    text-decoration: line-through;
-  }
   .menu a:hover {
-    color: #00F3BB 100%;
+    color: #00F3BB;
     text-decoration: line-through;
   }
   .icon {

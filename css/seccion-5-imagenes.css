@@ -13,10 +13,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    margin-left: 20em;
+  }
+  .images {
+    display: flex;
+    flex-flow: row wrap;
+    width: 28rem;
   }
   .image-1 {
-    transform: translate(350px, 200px);
+    transform: translate(150px, 190px);
     width: 450px;
     height: 660px;
   }

@@ -5,10 +5,11 @@
 }
 
 body {
-  max-width: 320px;
+  max-width: 360px;
   height: auto;
 }
 
+/* section-1: Nav*/
 .nav {
   text-align: right;
   height: 5rem;
@@ -92,7 +93,7 @@ label {
     display: none;
   }
 }
-
+/* Section-2: Titles*/
 .title-1 {
   font-family: "IBM Plex Sans", "sans-serif";
   font-size: 2.25rem;
@@ -221,6 +222,7 @@ article p {
   }
 }
 
+/* Section-3: Buttons*/
 .button {
   background: #00F3BB;
   width: 18.125rem;
@@ -288,6 +290,7 @@ article p {
   top: 2.5rem;
 }
 
+/* Section-4: Blue-fonds*/
 .fondo-azul-1 {
   width: 100%;
   height: 75rem;
@@ -353,6 +356,7 @@ article p {
   }
 }
 
+/* section-5: Images*/
 .image-1 {
   transform: translate(-20px, -60px);
 }
@@ -377,6 +381,7 @@ article p {
   }
 }
 
+/* Section-6: Icons*/
 .iconos-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -410,7 +415,7 @@ article p {
     align-self: center;
   }
 }
-
+/* Section-7: Footer*/
 .footer {
   position: relative;
   text-align: center;

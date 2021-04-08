@@ -32,14 +32,18 @@
     line-height: 1.75rem;
     display: inline-block;
     position: relative;
-    left: 7.5rem;
-    top: 0.875rem;
+    left: 3rem;
+    bottom: 3rem;
   }
   .footericon {
     display: inline-block;
     position: relative;
-    left: 80rem;
-    bottom: 0.625rem;
+    left: 70rem;
+    bottom: 3.8rem;
+  }
+  .social-med {
+    text-decoration: none;
+    color: black;
   }
 }
 /*# sourceMappingURL=seccion-7-footer-y-demas.css.map */
