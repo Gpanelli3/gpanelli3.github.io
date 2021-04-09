@@ -8,14 +8,14 @@
 }
 
 .icons{
-  margin-left: 5rem;
+  margin-left: 7rem;
 }
 .icons-title {
   font-family: "IBM Plex Sans", "sans-serif";
   font-size: 1.5rem;
   color: #060A24;
   letter-spacing: 0;
-  margin-left: 4rem;
+  margin-left: 6rem;
 }
 
 @media screen and (min-width: 1000px) {
@@ -25,9 +25,9 @@
     grid-template-rows: 100%;
     box-sizing: border-box;
     text-align: center;
-    margin-left: 8rem;
+    margin-left: 5rem;
     width: 100%;
-    column-gap: 6%;
+    column-gap: 5%;
   }
   .icons {
     align-self: center;
