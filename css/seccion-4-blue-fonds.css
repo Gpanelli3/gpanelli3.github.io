@@ -3,6 +3,7 @@
   height: 75rem;
   position: relative;
   top: 2.5rem;
+  margin: 0 auto;
 }
 
 .fondo-azul-1 {
@@ -14,6 +15,12 @@
   z-index: -10;
   transform: skewY(-5deg);
   bottom: 1.25rem;
+}
+
+.spotify {
+  width: 97%;
+  height: 242px;
+  border: none;
 }
 
 .contenedor {

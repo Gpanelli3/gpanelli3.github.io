@@ -9,6 +9,10 @@
   grid-template-rows: repeat(6, 1fr);
 }
 
+.images{
+  width: 100%;
+  height: 15rem;
+}
 
 @media screen and (min-width: 1000px) {
   .cont-img {

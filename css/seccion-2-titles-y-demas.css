@@ -25,6 +25,14 @@
   line-height: 2.625rem;
 }
 
+.text-firstimg {
+  font-family: "IBMPlexMono";
+  font-size: 0.875rem;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 1.375rem;
+}
+
 .titles-34 {
   font-family: "IBM Plex Sans", "sans-serif";
   font-size: 2.25rem;
@@ -70,18 +78,18 @@ article p {
     width: 50rem;
     box-sizing: border-box;
     position: relative;
-    left: 15.625rem;
-    top: 3.125rem;
+    left: 15rem;
+    top: 2.9rem;
   }
-  .title-1 .punto-azul {
+  .title-1 .blue-spot {
     color: blue;
   }
   h1 + p {
     font-size: 1rem;
     display: block;
     position: relative;
-    top: 3.75rem;
-    left: 15.625rem;
+    top: 4rem;
+    left: 15.2rem;
     width: 26.875rem;
   }
   .titles-34 {

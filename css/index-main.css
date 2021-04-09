@@ -5,10 +5,10 @@
 }
 
 body {
-  max-width: 320px;
+  max-width: 360px;
   height: auto;
 }
-/* Section-1: Nav*/
+
 .nav {
   text-align: right;
   height: 5rem;
@@ -89,7 +89,6 @@ label {
   }
 }
 
-/* Section-2: Titles*/
 .title-1 {
   font-family: "IBM Plex Sans", "sans-serif";
   font-size: 2.25rem;
@@ -115,6 +114,14 @@ label {
   color: #060A24;
   letter-spacing: 0;
   line-height: 2.625rem;
+}
+
+.text-firstimg {
+  font-family: "IBMPlexMono";
+  font-size: 0.875rem;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 1.375rem;
 }
 
 .titles-34 {
@@ -162,18 +169,18 @@ article p {
     width: 50rem;
     box-sizing: border-box;
     position: relative;
-    left: 15.625rem;
-    top: 3.125rem;
+    left: 15rem;
+    top: 2.9rem;
   }
-  .title-1 .punto-azul {
+  .title-1 .blue-spot {
     color: blue;
   }
   h1 + p {
     font-size: 1rem;
     display: block;
     position: relative;
-    top: 3.75rem;
-    left: 15.625rem;
+    top: 4rem;
+    left: 15.2rem;
     width: 26.875rem;
   }
   .titles-34 {
@@ -217,7 +224,7 @@ article p {
     margin-top: 8rem;
   }
 }
-/* Section-3: Buttons*/
+
 .button {
   background: #00F3BB;
   width: 18.125rem;
@@ -278,12 +285,12 @@ article p {
   }
 }
 
-/* Section-4: Blue-fonds */
 .contenedor-2 {
   width: 100%;
   height: 75rem;
   position: relative;
   top: 2.5rem;
+  margin: 0 auto;
 }
 
 .fondo-azul-1 {
@@ -295,6 +302,12 @@ article p {
   z-index: -10;
   transform: skewY(-5deg);
   bottom: 1.25rem;
+}
+
+.spotify {
+  width: 97%;
+  height: 242px;
+  border: none;
 }
 
 .contenedor {
@@ -348,7 +361,7 @@ article p {
     transform: skewY(-5deg);
   }
 }
-/* Section-5: Images*/
+
 .image-1 {
   transform: translate(-20px, -60px);
 }
@@ -357,6 +370,11 @@ article p {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
+}
+
+.images {
+  width: 100%;
+  height: 15rem;
 }
 
 @media screen and (min-width: 1000px) {
@@ -376,7 +394,7 @@ article p {
     height: 660px;
   }
 }
-/* Section-6: Icons*/
+
 .iconos-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -410,7 +428,7 @@ article p {
     align-self: center;
   }
 }
-/* Section-7: Footer*/
+
 .footer {
   position: relative;
   text-align: center;

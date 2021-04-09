@@ -22,11 +22,19 @@
 }
 
 .title-2 {
-  font-family: "IBM Plex Sans", "sans-serif";
+  font-family: $primary-letter;
   font-size: 2.25rem;
   color: #060A24;
   letter-spacing: 0;
   line-height: 2.625rem;
+}
+
+.text-firstimg{
+  font-family: $second-letter;
+  font-size: 0.875rem;
+  color: $primary-color;
+  letter-spacing: 0;
+  line-height:  1.375rem;
 }
 
 .titles-34{
@@ -74,10 +82,10 @@ article p{
     width: 50rem;
     box-sizing:border-box;
     position: relative;
-    left: 15.625rem;
-    top: 3.125rem;
+    left: 15rem;
+    top: 2.9rem;
 
-    .punto-azul{
+    .blue-spot{
       color: blue;
     }
   }
@@ -85,8 +93,8 @@ article p{
     font-size: 1rem;
     display:block;
     position:relative;
-    top: 3.75rem;
-    left: 15.625rem;
+    top: 4rem;
+    left: 15.2rem;
     width: 26.875rem;
   }
   .titles-34{
