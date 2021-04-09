@@ -59,7 +59,7 @@ label {
 
 .icon {
   position: relative;
-  right: 11rem;
+  right: 13rem;
 }
 
 @media screen and (min-width: 1000px) {
@@ -95,6 +95,7 @@ label {
   color: #060A24;
   letter-spacing: 0;
   line-height: 2.625rem;
+  margin-left: 1rem;
 }
 
 .title-1 .tachado {
@@ -114,6 +115,7 @@ label {
   color: #060A24;
   letter-spacing: 0;
   line-height: 2.625rem;
+  margin-left: 1rem;
 }
 
 .text-firstimg {
@@ -122,6 +124,7 @@ label {
   color: #060A24;
   letter-spacing: 0;
   line-height: 1.375rem;
+  margin-left: 1rem;
 }
 
 .titles-34 {
@@ -141,12 +144,13 @@ label {
   padding: 1.4375rem;
 }
 
-article p {
+section p {
   font-family: "IBMPlexMono";
   font-size: 0.875rem;
   color: #060A24;
   letter-spacing: 0;
   line-height: 1.375rem;
+  margin: 1rem 0 0 1rem;
 }
 
 .text-bfond-2 {
@@ -234,6 +238,7 @@ article p {
   text-align: center;
   line-height: 22px;
   border: none;
+  margin: 1rem 0 0 1rem;
 }
 
 .button3 {

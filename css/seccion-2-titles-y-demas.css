@@ -4,6 +4,7 @@
   color: #060A24;
   letter-spacing: 0;
   line-height: 2.625rem;
+  margin-left: 1rem;
 }
 
 .title-1 .tachado {
@@ -23,6 +24,7 @@
   color: #060A24;
   letter-spacing: 0;
   line-height: 2.625rem;
+  margin-left: 1rem;
 }
 
 .text-firstimg {
@@ -31,6 +33,7 @@
   color: #060A24;
   letter-spacing: 0;
   line-height: 1.375rem;
+  margin-left: 1rem;
 }
 
 .titles-34 {
@@ -50,12 +53,13 @@
   padding: 1.4375rem;
 }
 
-article p {
+section p {
   font-family: "IBMPlexMono";
   font-size: 0.875rem;
   color: #060A24;
   letter-spacing: 0;
   line-height: 1.375rem;
+  margin: 1rem 0 0 1rem;
 }
 
 .text-bfond-2 {
