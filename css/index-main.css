@@ -7,6 +7,13 @@
 body {
   max-width: 360px;
   height: auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    width: 100%;
+  }
 }
 
 .nav {
@@ -62,7 +69,7 @@ label {
   right: 13rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .menu {
     display: block;
     position: absolute;
@@ -164,7 +171,7 @@ section p {
   padding-top: 4.5rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .title-1 {
     font-family: "IBM Plex Sans", "sans-serif";
     font-size: 4rem;
@@ -279,7 +286,7 @@ section p {
   cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .button-container-1 {
     display: block;
     position: relative;
@@ -336,7 +343,7 @@ section p {
   transform: skewY(-5deg);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .contenedor-2 {
     max-width: 87.5rem;
     width: 84rem;
@@ -383,7 +390,7 @@ section p {
   height: 15rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .cont-img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -419,7 +426,7 @@ section p {
   margin-left: 6rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   #icon-container {
     display: grid;
     grid-template-columns: repeat(4, 25%);
@@ -465,7 +472,7 @@ section p {
   bottom: 9.375rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .footer {
     font-family: "IBMPlexMono";
     color: #060A24;

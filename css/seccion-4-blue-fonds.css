@@ -43,7 +43,7 @@
   transform: skewY(-5deg);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .contenedor-2 {
     max-width: 87.5rem;
     width: 84rem;
