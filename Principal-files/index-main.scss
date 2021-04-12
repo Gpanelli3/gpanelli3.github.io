@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
-    max-width: 360px;
+body {
+    min-width: 320px;
+    max-width: 414px;
     height: auto;
     width: 100%;
-}
-
+  }
+  
 @media screen and (min-width: 1000px){
     body{
         width: 100%;
