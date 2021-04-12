@@ -5,12 +5,11 @@
 }
 
 body {
-  min-width: 320px;
+  min-width: 360px;
   max-width: 414px;
   height: auto;
   width: 100%;
 }
-
 
 .nav {
   text-align: right;
@@ -36,7 +35,7 @@ body {
   display: block;
   text-align: left;
   padding: 2px;
-  background-color: red;
+  background-color: blue;
   width: 100%;
   position: relative;
   z-index: 2;
@@ -242,7 +241,7 @@ section p {
   text-align: center;
   line-height: 22px;
   border: none;
-  margin: 1rem 0 0 1rem;
+  margin: 1rem 0 1rem 3rem;
 }
 
 .button3 {
@@ -258,7 +257,7 @@ section p {
 
 .button2 {
   background: #00F3BB;
-  width: 18.125rem;
+  width: 18rem;
   height: 3rem;
   font-family: "IBMPlexMono-Medium";
   font-size: 1rem;
@@ -268,7 +267,7 @@ section p {
   line-height: 1.375rem;
   border: none;
   margin-top: 4rem;
-  margin-left: 2rem;
+  margin-left: 2.3rem;
 }
 
 .button4 {
@@ -317,6 +316,7 @@ section p {
   width: 97%;
   height: 242px;
   border: none;
+  margin-left: 0.4rem;
 }
 
 .contenedor {
@@ -373,7 +373,7 @@ section p {
 }
 
 .image-1 {
-  transform: translate(-20px, -60px);
+  transform: translate(10px, -60px);
 }
 
 .cont-img {
@@ -486,7 +486,7 @@ section p {
   .footericon {
     display: inline-block;
     position: relative;
-    left: 70rem;
+    left: 57rem;
     bottom: 3.8rem;
   }
   .social-med {
