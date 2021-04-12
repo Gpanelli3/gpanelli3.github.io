@@ -339,7 +339,7 @@ section p {
 @media screen and (min-width: 900px) {
   .contenedor-2 {
     max-width: 87.5rem;
-    width: 84rem;
+    width: 84.3rem;
     height: 62.5rem;
     position: relative;
     top: 20em;
@@ -357,12 +357,12 @@ section p {
   }
   .contenedor {
     max-width: 87.5rem;
-    width: 84rem;
+    width: 84.3rem;
     height: 32.5rem;
     position: relative;
   }
   .blue-fond-2 {
-    margin-top: 2.1875rem;
+    margin-top: 2rem;
     height: 37.5rem;
     transform: skewY(-5deg);
   }
@@ -394,7 +394,7 @@ section p {
   .images {
     display: flex;
     flex-flow: row wrap;
-    width: 28rem;
+    width: 28.1rem;
   }
   .image-1 {
     transform: translate(150px, 190px);

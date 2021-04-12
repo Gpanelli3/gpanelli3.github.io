@@ -24,7 +24,7 @@
   .images {
     display: flex;
     flex-flow: row wrap;
-    width: 28rem;
+    width: 28.1rem;
   }
   .image-1 {
     transform: translate(150px, 190px);
