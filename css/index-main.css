@@ -82,6 +82,10 @@ label {
     color: #00F3BB;
     text-decoration: line-through;
   }
+  .menu a:active {
+    color: rgba(6, 10, 36, 0.56);
+    text-decoration: line-through;
+  }
   .icon {
     margin-left: 3.75rem;
     width: 2rem;
@@ -234,7 +238,7 @@ section p {
 
 .button {
   background: #00F3BB;
-  width: 18.125rem;
+  width: 18rem;
   height: 3rem;
   font-size: 1rem;
   letter-spacing: 0;
@@ -242,16 +246,13 @@ section p {
   line-height: 22px;
   border: none;
   margin: 1rem 0 1rem 3rem;
-}
-
-.button3 {
-  text-decoration: none;
   color: #060A24;
   font-family: "IBMPlexMono-Medium";
 }
 
-.button3:hover {
+.button:hover {
   color: white;
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
   cursor: pointer;
 }
 
@@ -270,14 +271,9 @@ section p {
   margin-left: 2.3rem;
 }
 
-.button4 {
-  text-decoration: none;
-  color: #060A24;
-  font-family: "IBMPlexMono-Medium";
-}
-
-.button4:hover {
+.button2:hover {
   color: white;
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
   cursor: pointer;
 }
 
@@ -385,7 +381,7 @@ section p {
 
 .images {
   width: 100%;
-  height: 15rem;
+  height: auto;
 }
 
 @media screen and (min-width: 900px) {
@@ -411,6 +407,7 @@ section p {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
+  row-gap: 1rem;
 }
 
 .icons {
@@ -422,7 +419,7 @@ section p {
   font-size: 1.5rem;
   color: #060A24;
   letter-spacing: 0;
-  margin-left: 6rem;
+  margin-left: 7rem;
 }
 
 @media screen and (min-width: 900px) {

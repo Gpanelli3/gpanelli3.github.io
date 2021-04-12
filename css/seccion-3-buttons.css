@@ -1,6 +1,6 @@
 .button {
   background: #00F3BB;
-  width: 18.125rem;
+  width: 18rem;
   height: 3rem;
   font-size: 1rem;
   letter-spacing: 0;
@@ -8,16 +8,13 @@
   line-height: 22px;
   border: none;
   margin: 1rem 0 1rem 3rem;
-}
-
-.button3 {
-  text-decoration: none;
   color: #060A24;
   font-family: "IBMPlexMono-Medium";
 }
 
-.button3:hover {
+.button:hover {
   color: white;
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
   cursor: pointer;
 }
 
@@ -36,14 +33,9 @@
   margin-left: 2.3rem;
 }
 
-.button4 {
-  text-decoration: none;
-  color: #060A24;
-  font-family: "IBMPlexMono-Medium";
-}
-
-.button4:hover {
+.button2:hover {
   color: white;
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
   cursor: pointer;
 }
 
