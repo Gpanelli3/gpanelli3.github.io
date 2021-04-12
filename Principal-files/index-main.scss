@@ -4,18 +4,14 @@
     box-sizing: border-box;
 }
 body {
-    min-width: 320px;
-    max-width: 414px;
-    height: auto;
-    width: 100%;
-  }
-  
-@media screen and (min-width: 1000px){
-    body{
-        width: 100%;
-    }
+  min-width: 360px;
+  max-width: 414px;
+  height: auto;
+  width: 100%;
 }
-   
+
+
+ 
 
 @import "../SCSS/seccion-1-nav.scss";
 @import"../SCSS/seccion-2-titles-y-demas.scss";
