@@ -28,7 +28,7 @@
   bottom: 9.375rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .footer {
     font-family: "IBMPlexMono";
     color: #060A24;

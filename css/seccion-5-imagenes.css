@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
+  margin: 0 auto;
 }
 
 .images {
@@ -13,11 +14,12 @@
   height: 15rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .cont-img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    margin: 0 auto;
   }
   .images {
     display: flex;

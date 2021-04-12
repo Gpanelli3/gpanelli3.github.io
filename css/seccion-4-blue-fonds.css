@@ -30,6 +30,7 @@
   bottom: 2.5rem;
   overflow: hidden;
   bottom: 9rem;
+  margin: 0 auto;
 }
 
 .blue-fond-2 {
@@ -43,7 +44,7 @@
   transform: skewY(-5deg);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .contenedor-2 {
     max-width: 87.5rem;
     width: 84rem;
