@@ -104,7 +104,7 @@ header input :checked ~ label span::after {
 
 .icon {
   position: relative;
-  right: 270px;
+  right: 300px;
 }
 
 @media screen and (min-width: 900px) {
