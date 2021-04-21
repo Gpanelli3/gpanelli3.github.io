@@ -67,16 +67,16 @@ header label span::after {
   background-color: black;
 }
 
-header input :checked ~ label span {
+header input:checked ~ label span {
   background-color: transparent;
 }
 
-header input :checked ~ label span::before {
+header input:checked ~ label span::before {
   transform: rotate(-45deg);
   top: 0;
 }
 
-header input :checked ~ label span::after {
+header input:checked ~ label span::after {
   transform: rotate(45deg);
   top: 0;
 }
@@ -85,7 +85,7 @@ header input :checked ~ label span::after {
   display: none;
 }
 
-#toggle:checked + .menu {
+#toggle:checked ~ .menu {
   display: block;
 }
 
