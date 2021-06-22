@@ -1,2 +1,4 @@
 # gpanelli3.github.io
-This is my first proyect as a Full Stack Developer. Enjoy it!
+Este es un proyecto de una pagina web estatica que hice para practicar los conocimientos de HTML Y CSS.
+
+Conocimentos aplicados: HTML || CSS || SASS
